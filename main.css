@@ -1,0 +1,84 @@
+/*  Base  */
+body {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 960px;
+	height: 100%;
+	background-color: darkblue;
+}
+
+div {
+	background: #fff;
+	font-size: 0;
+	height: 100%;													
+}
+
+h1 {
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+/*  Header  */
+header {
+	width: 100%;
+	min-height: 3.5em;
+	background-color: lightgrey;
+}
+
+header h1 {
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+}
+
+/*  Grid  */
+aside, section.main-content {
+	display: inline-block;
+	vertical-align: top;
+	height: 98%;
+	margin: 1%;
+	font-size: 16px;
+}
+
+/*  Sidebar */
+aside {
+	width: 28.8%;
+}
+
+/*  Main Content*/
+section.main-content {
+	width: 67.2%;
+}
+/*  Footer  */
+footer {
+	width: 100%;
+	min-height: 2em;
+	background-color: lightgreen;
+}
+footer h1 {
+	font-size: 1em;
+	font-weight: bold;
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media all and (max-width: 480px) {
+	.aside, section.main-content { 
+		display: block;
+	}
+}
+/*
+@media all and (max-width: 480px) {
+	aside {
+		margin-right: 2%;
+		width: 100%; 
+	}
+	section.main-content {
+		margin: 
+		width: 100%;
+	}
+}
+*/
